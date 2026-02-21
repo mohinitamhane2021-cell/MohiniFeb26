@@ -18,6 +18,7 @@ public class MProjject1 {
 				dr.findElement(By.id("pass")).sendKeys("Mohini");
 				System.out.println("Login");
 				System.out.println("Mohini");
+				System.out.println("Created branch A");
 				
 				Thread.sleep(3000);
 				dr.close();
