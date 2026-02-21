@@ -17,6 +17,7 @@ public class MProjject1 {
 				dr.findElement(By.id("email")).sendKeys("abc@test.com");
 				dr.findElement(By.id("pass")).sendKeys("Mohini");
 				System.out.println("Login");
+				System.out.println("Mohini");
 				
 				Thread.sleep(3000);
 				dr.close();
